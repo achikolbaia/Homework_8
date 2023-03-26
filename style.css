@@ -1,0 +1,14 @@
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    box-shadow: 10px 15px red;
+    transition-property: all;
+    transition-duration: 2s;
+}
+
+.box:hover {
+    transform: scale(2);
+    box-shadow: 10px 15px 20px red;
+
+}
